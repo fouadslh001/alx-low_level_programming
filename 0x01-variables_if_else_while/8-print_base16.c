@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int f = 1;
+	int f = 0;
 	int l = 10;
 	char ff = 'a';
 	char ll = 'f';
