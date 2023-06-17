@@ -12,13 +12,13 @@ int main(void)
 	char ff = 'a';
 	char ll = 'f';
 
-	while (f < l) 
+	while (f < l)
 	{
 		putchar(f + '0');
 		f++;
 	}
 
-	while (ff <= ll) 
+	while (ff <= ll)
 	{
 		putchar(ff);
 		ff++;
