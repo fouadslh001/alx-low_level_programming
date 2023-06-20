@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * 1-alphabet.c - entry point
  * Description: alphabet
  * Return: 0 mean sucssees
  */
