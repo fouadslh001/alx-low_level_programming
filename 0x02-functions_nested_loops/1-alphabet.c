@@ -6,17 +6,14 @@
  * Return: 0 mean sucssees
  */
 
-int main(void)
+void print_alphabet(void);
 {
-	char i = 'a';
-	char x = 'z';
+	int i;
 
-	while (i <= x )
+	for (i = 97; i <= 122; i++ )
 		{
 			_putchar(i);
-			i++;
 		}
 	_putchar('\n');
-	return (0);
 
 }
