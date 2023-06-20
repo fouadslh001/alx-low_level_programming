@@ -6,7 +6,7 @@
  * Return: 0 mean sucssees
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
@@ -16,4 +16,5 @@ int _isalpha(int c);
 	{
 		return (0);
 	}
+	_putchar('\n');
 }
