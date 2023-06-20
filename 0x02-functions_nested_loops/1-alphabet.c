@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 1-alphabet.c - entry point
+ * print-alphabet - entry point
  * Description: alphabet
  * Return: 0 mean sucssees
  */
@@ -17,5 +17,4 @@ void print_alphabet(void)
 			i++;
 		}
 	_putchar('\n');
-	return (0);
 }
