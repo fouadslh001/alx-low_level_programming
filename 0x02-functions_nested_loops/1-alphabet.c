@@ -6,7 +6,8 @@
  * Return: 0 mean sucssees
  */
 
-int main()
+void print_alphabet(void);
+
 {
 	char i = a;
 	char x = z;
@@ -16,7 +17,7 @@ int main()
 			_putchar(i);
 			i++;
 		}
-	_putchar('\n')
+	_putchar('\n');
 
 	return (0);
 
