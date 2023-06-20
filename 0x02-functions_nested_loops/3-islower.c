@@ -2,6 +2,7 @@
 
 /**
  * _islower - entry point for this programe
+ * @c: ascii code
  * Return: 0 mean sucssees
  */
 
