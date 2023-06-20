@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - entry point
+ * print_alphabet - entry point for this programe
  * Return: 0 mean sucssees
  */
 
