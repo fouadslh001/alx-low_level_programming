@@ -13,16 +13,16 @@ void print_alphabet_x10(void)
 
 	while (0 <= 10)
 	{
-		while (i <= x)
-		{
-			_putchar(i);
-			i++,
-		}
+	while (i <= x)
+	{
+	_putchar(i);
+	i++,
+	}
 
 	_putchar('\n');	
 	_putchar(i);
 	rp++;
-	i = 'a'
+	i = 'a';
 	}
 	
 }
