@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - entry point for this programe 
+ * jack_bauer - entry point for this programe
  * Return:  no return
  */
 
