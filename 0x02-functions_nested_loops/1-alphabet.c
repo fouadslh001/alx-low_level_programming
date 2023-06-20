@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print-alphabet - entry point
- * Description: alphabet
+ * print_alphabet - entry point
  * Return: 0 mean sucssees
  */
 
