@@ -2,8 +2,8 @@
 
 /**
  * print_sign - entry point for this programe
- * @c: ascii code
- * Return: 0 mean sucssees
+ * @n: the input number as ion integer
+ * Return:  grater that 0 means , and -1 less that zero and zero is 0
  */
 
 int print_sign(int n)
