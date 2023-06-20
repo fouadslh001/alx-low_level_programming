@@ -4,6 +4,8 @@
  * print_alphabet_x10 - entry point for this programe
  * Return: 0 mean sucssees
  */
+
+
 void print_alphabet_x10(void)
 {
     char i = 'a';
@@ -12,7 +14,7 @@ void print_alphabet_x10(void)
 
     while (rp <= 10)
     {
-        while (i <= x)
+	    while (i <= x)
         {
             _putchar(i);
             i++;
