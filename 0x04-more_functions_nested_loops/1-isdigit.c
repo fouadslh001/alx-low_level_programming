@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - this entry point
+ * int _isdigit - this entry point
  * @c: the caracter to print
  * Return: 0 means otherwise  and 1 means digits
  */
