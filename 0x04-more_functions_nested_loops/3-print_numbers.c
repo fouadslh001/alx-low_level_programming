@@ -2,20 +2,18 @@
 
 /**
  * print_numbers - this entry point
- * @c: print number digits
- * Return: 0 means otherwise  and 1 means digits
+ * Return: 0 means otherwise and 1 means digits
  */
 
 void print_numbers(void)
 {
-	if (c >= '0' && c <= '9')
+	int n = 0;
+
+	while (n <= 9)
 	{
-		return (1);
-		_putchar("\n");
+		_putchar("%d", c);
+		c++;
 	}
-	else
-	{
+		_putchar("\n");
 		return (0);
-		_putchar("\n");
-	}
 }
