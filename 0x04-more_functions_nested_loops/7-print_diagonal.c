@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - this function print diagonal line '\'
- * @n: number of caracter shold printed 
- * Return: void
- */
+* print_diagonal - this function print diagonal line '\'
+* @n: number of caracter shold printed
+* Return: void
+*/
 
 void print_diagonal(int n)
 {
@@ -17,10 +17,9 @@ void print_diagonal(int n)
 			for (j = 0; j < n; j++)
 				_putchar(' ');
 
-			_putchar(92);
-			_putchar('\n');
+		_putchar(92);
+		_putchar('\n');
 		}
-	
 	}
 	else
 		_putchar('\n');
