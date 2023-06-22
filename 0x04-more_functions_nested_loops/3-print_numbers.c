@@ -11,9 +11,8 @@ void print_numbers(void)
 
 	while (n <= 9)
 	{
-		_putchar("%d", c);
+		_putchar("%d", n);
 		c++;
 	}
 		_putchar("\n");
-		return (0);
 }
