@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _puts - print string fonction
@@ -14,4 +15,6 @@ void _puts(char *str)
 		puts("*str");
 		str++;
 	}
+
+	puts("\n");
 }
