@@ -3,7 +3,7 @@
 
 /**
  * _strlen - will swap to integer fonction
- * @c: character pointer
+ * @s: character pointer
  * Return: the length of string
  */
 
@@ -17,5 +17,5 @@ int _strlen(char *s)
 		*s++;
 	}
 
-	return len;
+	return (len);
 }
