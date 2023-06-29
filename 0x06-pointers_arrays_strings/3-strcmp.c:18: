@@ -1,0 +1,1 @@
+trcmp.c:18: ERROR: "(foo*)" should be "(foo *)"
