@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * *_strcat - entry point
+ * *_strncat - entry point
  *@src: character
  *@dest: character
  *@n: character
