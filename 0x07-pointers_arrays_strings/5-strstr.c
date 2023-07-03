@@ -9,27 +9,19 @@
  * or NULL if the substring is not found.
  */
 
-char* _strstr(char* haystack, char* needle)
+char *_strstr(char *haystack, char *needle)
 {
-while (*haystack && *needle)
-{
-if (*haystack == *needle)
-{
-char* temp_h = haystack;
-char* temp_n = needle;
+	int i, j;
 
-while (*temp_h == *temp_n)
-{
-temp_h++;
-temp_n++;
-}
-
-if (*temp_n == '\0')
-return haystack;
-}
-
-haystack++;
-}
-
-	return NULL;
+	for (i = 0; haystack[i] != '\0'; i++)
+	{
+		for (j = 0; needle[j] != '\0'; j++)
+		{
+			if (haystack[i + j] != needle[j])
+				break;
+		}
+		if (!needle[j])
+			return (&haystack[i]);
+	}
+	return (NULL);
 }
