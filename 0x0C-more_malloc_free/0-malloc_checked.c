@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * malloc_ checked - function that allocates memory using malloc
+ * malloc_checked - function that allocates memory using malloc
  * @b: size to allocated
  * Return: pointer to allocated memory or exit with 98
  */
