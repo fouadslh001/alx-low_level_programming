@@ -1,5 +1,5 @@
-#ifndef DOUBLEGUARD
-#define DOUBLEGUARD
+#ifndef HEADER_FILE
+#define HEADER_FILE dog.h
 
 /**
  * struct dog - Define a new struct dog with name, age, owner
@@ -13,6 +13,6 @@ struct dog
 	char *name;
 	char *owner;
 	float age;
-}
+};
 
 #endif
