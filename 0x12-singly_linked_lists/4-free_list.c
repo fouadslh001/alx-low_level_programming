@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * free_list - A function that frees all elements in a linked list
+ * free_list - this function will frees all elements in a linked list
  * @head: pointer to head element of list
- * Return: Nothing
+ * Return: 0 or void
  */
 void free_list(list_t *head)
 {
