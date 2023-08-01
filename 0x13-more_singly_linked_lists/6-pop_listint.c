@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 
-/**f
+/**
  * pop_listint - function will dealate node list and returns itts contents
  * @head: head of thes list
  * Return: contents of thee head
