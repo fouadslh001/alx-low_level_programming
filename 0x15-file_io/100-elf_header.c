@@ -11,11 +11,8 @@
  * Return: 0 on succes, -1 on error or fail the processe.
  */
 
-
-int main(int ac, char *av[])
+int main(int argc, char *argv[])
 {
-
+	printf("argc:%d, argv:%p\n", argc, (void *)*argv);
 	return (1);
-	return (0);
-
 }
