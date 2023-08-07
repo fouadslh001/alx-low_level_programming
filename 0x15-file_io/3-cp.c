@@ -20,8 +20,8 @@ void _error(int e, char *filename)
 {
 	if (e == 98)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
-		exit(98);
+	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
+	exit(98);
 	}
 	if (e == 99)
 	{
@@ -32,7 +32,7 @@ void _error(int e, char *filename)
 
 
 /**
- * cp - the function that responsable Copies the content a file to another file.
+ * cp - the function that responsable Copies the content a file to another file
  * @file_from: Name of the source file we need.
  * @file_to: Name of the destination file that well send file to it.
  * Return: 1 on success, -1 on failure or fail processe.
